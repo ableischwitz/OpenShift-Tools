@@ -14,7 +14,7 @@ export microcontainer
 buildah config \
         --author "ableisch@redhat.com" \
         --created-by "ableisch" \
-        --label description="Simple Kerberos clientr image to test Kerberos client connectivity" \
+        --label description="Simple Kerberos client image to test Kerberos client connectivity" \
         --label io.k8s.description="Simple Kerberos client image to test Kerberos client connectivity" \
         --label name=rhel-ubi8-kerberos-client \
         $microcontainer
